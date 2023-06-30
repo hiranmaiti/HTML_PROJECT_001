@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TechBurners</title>
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style/style.css">
+    <script src="https://kit.fontawesome.com/2a09458275.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url("./images/b9a21791534383.5e341720a5140.jpg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      margin-top: 100px;
+      margin-bottom: 230px;
+      background-color: gainsboro;
+      box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+      border-radius: 4px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    input[type="button"] {
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+  <script>
+    function login() {
+      
+      var email = document.getElementById("email").value;
+      var password = document.getElementById("password").value;
+
+     
+      if (email === "" || password === "") {
+        alert("Please enter both email and password.");
+        return;
+      }
+
+      
+      alert("Login successful!");
+
+      
+      window.location.href = "index.html";
+    }
+
+    function createAccount() {
+      
+      var email = document.getElementById("email").value;
+      var password = document.getElementById("password").value;
+
+      
+      if (email === "" || password === "") {
+        alert("Please enter both email and password.");
+        return;
+      }
+
+      
+      
+      alert("Account created successfully!");
+
+      
+      window.location.href = "index.html";
+    }
+  </script>
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="container-nav">
+            <div class="logo">
+              <img src="./images/TECHURNERS.png" class="img-logo" alt="">
+              <h2><a href="./index.html" style="text-decoration: none;">TECHBURNERS</a></h2>
+            </div>
+            <div class="search-container">
+                <input class="search-input" type="text" name="q" placeholder="Search...">
+                <button class="search-button" type="submit">Search</button>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span>Shopping Cart</a></li>
+              <li><a href="./login.html"><span class="glyphicon glyphicon-user"></span>Register</a></li>
+              <li><a href="./login.html"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+          </ul>
+          </div>
+        </nav>
+      </header>
+
+
+
+
+  <div class="container">
+    <h1>Login or Create an Account</h1>
+    <form>
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="enter email address" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="enter password" required>
+      <input type="button" value="Login" onclick="login()">
+      <input type="button" value="Create Account" onclick="createAccount()">
+    </form>
+  </div>
+
+
+
+
+  
+  <footer>
+    <div class="container-footer">
+      <div class="col-footer">
+        <div class="col-1-footer"><h4>Company Information</h4></div>
+        <div class="col-1-footer"><a href="#" class="hover-underline-animation">About Us</a></div>
+        <div class="col-1-footer"><a href="#" class="hover-underline-animation">Privacy Policy</a></div>
+        <div class="col-1-footer"><a href="#" class="hover-underline-animation">Terms and Conditions</a></div>
+        <div class="col-1-footer"><a href="#" class="hover-underline-animation">Intellectual Property Policy</a></div>
+        <div class="col-1-footer"><a href="#" class="hover-underline-animation">Contact Us</a></div>
+        <div class="col-1-footer"><a href="#" class="hover-underline-animation">Cookies Policy</a></div>
+      </div>
+      <div class="col-footer">
+        <div class="col-2-footer"><h4>Customer Service</h4></div>
+        <div class="col-2-footer"><a href="#" class="hover-underline-animation">Shipping Information</a></div>
+        <div class="col-2-footer"><a href="#" class="hover-underline-animation">FAQ For Newsletter Subscription</a></div>
+        <div class="col-2-footer"><a href="#" class="hover-underline-animation">Warranty and Return</a></div>
+        <div class="col-2-footer"><a href="#" class="hover-underline-animation">Payment Methods</a></div>
+        <div class="col-2-footer"><a href="#" class="hover-underline-animation">FAQ & Support</a></div>
+      </div>
+      <div class="col-footer">
+        <div class="col-3-footer"><h4>Contact Us</h4></div>
+        <div class="col-3-footer"><a href="#" class="hover-underline-animation">support@gearbest.com</a></div>
+      </div>
+      <div class="col-footer">
+        <div class="col-4-footer"><h4>About us</h4></div>
+        <div class="col-4-footer"><p>Techburners will always provide high quality products and services via its international e-commerce platform maximize the happiness of global customers.</p></div>
+        <div class="col-4-footer"><a href="#">View More</a></div>
+
+      </div>
+      <div class="col-footer">
+        <div class="col-5-footer"><h4>Newsletter</h4></div>
+        <div class="col-5-footer">
+          <input class="input-footer" type="email" placeholder="Enter your e-mail address">
+          <input class="submit-footer" type="submit" value="Subscribe">
+        </div>
+      </div>
+    </div>
+    <div class="container-2-footer">
+      <div><p>Copyright © 2014-2023 techburners.com. All Rights Reserved.</p></div>
+      <div>
+        <ul>
+          <li><img src="https://gearbest.net/static/themes-v2/default/images/payment/icon_Maestro.png" alt=""></li>
+          <li><img src="https://gearbest.net/static/themes-v2/default/images/payment/icon_Mastercard.png" alt=""></li>
+          <li><img src="https://gearbest.net/static/themes-v2/default/images/payment/icon_Visa.png" alt=""></li>
+          <li><img src="https://gearbest.net/static/themes-v2/default/images/payment/icon_Discover.png" alt=""></li>
+          <li><img src="https://gearbest.net/static/themes-v2/default/images/payment/icon_Dinersclub.png" alt=""></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+
+</body>
+</html>

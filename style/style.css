@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+    .container-nav {
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+        background-color: #333;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 9999;
+        height: 75px;
+    }
+    .logo {
+        display: flex;
+        /* width: 10%; */
+        height: 100%;
+        color: white;
+        font-size: 10px;
+    }
+    .signin-logo {
+        display: flex;
+    }
+    .search-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+        margin: auto;
+        gap: 10px;
+    }
+
+    .search-input {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 300px;
+        font-size: 16px;
+        outline: none;
+    }
+
+    .search-button {
+        padding: 8px 16px;
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .signin-logo {
+        width: 10%;
+        gap: 30px;
+    }
+    .icon-logo {
+        width: 100px;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+        margin: auto;
+        gap: 10px;
+    }
+    ul li a {
+        border-radius: 14px;
+        color: white;
+    }
+    span.glyphicon {
+        margin-right: 5px;
+    }
+
+
+
+
+    .slide {
+        width: 100%;
+        height: 400px;
+        position: relative;
+        margin-top: 75px;
+    }
+    .slide > img {
+        width: 100%;
+        height: 100%;
+    }
+    .slide > button {
+        position: absolute;
+        top: 40%;
+        border-radius: 4px;
+        background-color: white;
+        color: black;
+        border: 0;
+        font-size: 20px;
+        width: 50px;
+        height: 100px;
+    }
+    .slide > button:nth-child(2) {
+        left: 0%;
+    }
+    .slide > button:nth-child(3) {
+        right: 0%;
+    }
+
+    #container-1 {
+        width: 85%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 20px;
+        background-color: #f3f3f3;
+    }
+
+    #product {
+        padding: 15px;
+        line-height: 25px;
+        font-family: Roboto,Arial,sans-serif;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        background-color: white;
+        border-radius: 12px;
+    }
+
+    #product:hover {
+        transform: scale(1.1);
+        border-radius: 12px;
+        transition: 0.3s;
+      }
+
+    #img-1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+    }
+    #productBtn {
+        text-align: center;
+    }
+    /* #btnCart {
+        width: 25%;
+        height: 40px;
+        border: 0;
+        border-radius: 15px;
+        background-color: black;
+        color: white;
+    }
+
+    #btnCart:hover {
+        background-color: #0069ff;
+        border: 0;
+    } */
+
+    .button-41 {
+        background-color: initial;
+        background-image: linear-gradient(-180deg, #00D775, #00BD68);
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-block;
+        font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+        height: 44px;
+        line-height: 44px;
+        outline: 0;
+        overflow: hidden;
+        padding: 0 20px;
+        pointer-events: auto;
+        position: relative;
+        text-align: center;
+        touch-action: manipulation;
+        user-select: none;
+        -webkit-user-select: none;
+        vertical-align: top;
+        white-space: nowrap;
+        width: 30%;
+        z-index: 9;
+        border: 0;
+      }
+      
+      .button-41:hover {
+        background: #00bd68;
+      }
+
+
+    #product p {
+        color: #48a741;
+        font-size: 20px;
+    }
+    #product h4 {
+        color: #847a8e;
+        font-size: 16px;
+    }
+
+    #product h3 {
+        font-weight: lighter;
+        font-size: 16px;
+    }
+
+
+
+
+    /* footer */
+
+
+
+    .container-footer {
+        width: 100%;
+        display: flex;
+        padding: 30px 100px;
+        gap: 30px;
+        background-color: #6c6f72;
+        color: white;
+        font-weight: bold;
+    }
+
+    .container-footer > div {
+        width: 20%;
+    }
+    .container-footer > div > div {
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .hover-underline-animation {
+        color: white;
+    }
+
+    .hover-underline-animation:hover {
+        text-decoration: underline;
+        color: #0069ff;
+    }
+
+    .col-4-footer a {
+        background-color: #0069ff;
+        color: #fff;
+        height: 48px;
+        line-height: 48px;
+        padding: 0 25px;
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    .input-footer {
+        padding: 0 20px;
+        font-size: 12px;
+        flex-grow: 1;
+        max-width: 300px;
+        border: 1px solid #cccbcb;
+        height: 50px;
+        line-height: 50px;
+        box-sizing: border-box;
+        margin-bottom: 12px;
+        font-weight: lighter;
+    }
+
+    .submit-footer {
+        height: 50px;
+        line-height: 50px;
+        box-sizing: border-box;
+        margin-bottom: 12px;
+        background-color: #0069ff;
+        color: #fff;
+        padding: 0 30px;
+        cursor: pointer;
+        border: 0;
+    }
+    .container-2-footer {
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: #5d6668;
+        background-color: #1b1d20;
+    }
+    .container-2-footer ul li {
+        list-style: none;
+    }
+    .container-2-footer ul li img {
+        width: 50px;
+    }
+
