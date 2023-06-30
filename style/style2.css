@@ -1,0 +1,262 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+  .container-nav {
+      display: flex;
+      justify-content: space-between;
+      overflow: hidden;
+      background-color: #333;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 9999;
+      height: 75px;
+  }
+  .logo {
+      display: flex;
+      /* width: 10%; */
+      height: 100%;
+      color: white;
+      font-size: 10px;
+  }
+  .signin-logo {
+      display: flex;
+  }
+  .search-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5px;
+      margin: auto;
+      gap: 10px;
+  }
+
+  .search-input {
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: 300px;
+      font-size: 16px;
+      outline: none;
+  }
+
+  .search-button {
+      padding: 8px 16px;
+      background-color: #4CAF50;
+      border: none;
+      border-radius: 4px;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+  }
+  .signin-logo {
+      width: 10%;
+      gap: 30px;
+  }
+  .icon-logo {
+      width: 100px;
+  }
+
+  ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5px;
+      margin: auto;
+      gap: 10px;
+  }
+  ul li a {
+      border-radius: 14px;
+      color: white;
+  }
+  span.glyphicon {
+      margin-right: 5px;
+  }
+
+  .container-ashu {
+    margin-top: 75px;
+  }
+
+
+
+.ashu{
+  height: 350px;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+ } 
+
+
+   .carousel {
+    box-sizing: border-box; 
+    box-sizing: content-box;
+    width: 60%;
+    height: auto;
+    margin-top: 10px; 
+    border: 1px solid #ccc;
+   }
+   .info{
+        margin-left: 500px;
+        box-sizing: border-box;
+        box-sizing: content-box;
+        border-radius: 1px;
+        width: 30%;
+        height: auto;
+        margin-top: 10px;
+        margin-left: 5px;
+        /* border: 1px solid red; */
+        text-align: center;
+        border: 1px solid #ccc;
+  } 
+  .info h3 {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .btn-primary{
+    border: 0;
+    border-radius: 4px;
+    justify-content: space-between;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  #btn-payment a {
+    text-decoration: none;
+    color: white;
+  }
+   .reviews{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.review-form {
+      width: 70%;
+      margin: auto;
+      margin: 5px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      align-content: first baseline;
+    }
+
+    .review-form label,
+    .review-form textarea,
+    .review-form input[type="submit"] {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .review-form input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    
+    .review {
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .container-footer {
+      width: 100%;
+      display: flex;
+      padding: 30px 100px;
+      gap: 30px;
+      background-color: #6c6f72;
+      color: white;
+      font-weight: bold;
+  }
+
+  .container-footer > div {
+      width: 20%;
+  }
+  .container-footer > div > div {
+      margin: 5px;
+      padding: 5px;
+  }
+
+  .hover-underline-animation {
+      color: white;
+  }
+
+  .hover-underline-animation:hover {
+      text-decoration: underline;
+      color: #0069ff;
+  }
+
+  .col-4-footer a {
+      background-color: #0069ff;
+      color: #fff;
+      height: 48px;
+      line-height: 48px;
+      padding: 0 25px;
+      display: inline-block;
+      text-decoration: none;
+  }
+
+  .input-footer {
+      padding: 0 20px;
+      font-size: 12px;
+      flex-grow: 1;
+      max-width: 300px;
+      border: 1px solid #cccbcb;
+      height: 50px;
+      line-height: 50px;
+      box-sizing: border-box;
+      margin-bottom: 12px;
+      font-weight: lighter;
+  }
+
+  .submit-footer {
+      height: 50px;
+      line-height: 50px;
+      box-sizing: border-box;
+      margin-bottom: 12px;
+      background-color: #0069ff;
+      color: #fff;
+      padding: 0 30px;
+      cursor: pointer;
+      border: 0;
+  }
+  .container-2-footer {
+      text-align: center;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      color: #5d6668;
+      background-color: #1b1d20;
+  }
+  .container-2-footer ul li {
+      list-style: none;
+  }
+  .container-2-footer ul li img {
+      width: 50px;
+  }
